@@ -22,3 +22,41 @@ metoda(40) //volam metodu "metoda" a urcim x jako 40}
 //class se vytvaří - "class jmeno{obsah}"
 //instance new vytvaří objekt
 /* Encapsulation - ma tyto acces modifikace public, private, protected, internal, protected internal
+//Constructors - kdyz je class vytvorena, construktor se vytvori public Claass()
+//Destructor - ~Claass()
+//Property - setter (vraceni/ psani) getter (cteni)
+public string Name { get; set; } //auto implement
+//objekt se uklada do heap (dynamic)
+//array "int[] b = {neco, halo};"
+//vice dimensionalni array int[ , ] arr = new int [3,4];
+// array metody - .Rank (kolik má dymenzi) , .Lenght (jak je arr dlouhy)
+//array pouziva jenom int a inderex muze mit string, char a tak
+
+Static - static variable se musi povolit jedine pres nazev classy ve ktery je static, to same plati pro static metodu/funkci, vsechny const jsou static
+Static class - ma jenom static members
+
+this - v objektu uziva se pro aktualni class
+Dedičnost - 
+  inheritance/Dědičnost nám umožňuje definovat třídu na základě jiné třídy.
+  base class - class Animal
+  derived/prevzatá class - class Dog : Animal
+  když je class SEALED, tak se z ní nemůže dědit
+Polymorphismus (mít více forem) - 
+  Jedna metoda může mít více různých implementací
+  Virtuální metody umožňují pracovat se skupinami souvisejících objektů jednotným způsobem.
+  Metoda override přepíše obsah funkce a může se zdědit
+  Shape c = new Circle(); Shape je base class, Circle je derived/dědící class
+Abstract classes - 
+  deklarace abstraktních metod jsou povoleny pouze v abstraktních třídách
+  abstrakt class musi být děděna
+Interface (abstrktní class) -
+  Může mít jen metody nebo property, nemůže mít variably/containery
+  Múže se dědit díky tomu víc class
+Nested class - 
+  classy v classy (př. motor v autě)
+Namespace - poznámka ve kterým se píše cely program
+
+Struct - 
+  nemají dědičnost
+  classy ale limitovaný
+  pro jednoduší ukladaní dat
