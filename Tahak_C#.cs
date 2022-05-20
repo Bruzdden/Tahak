@@ -49,6 +49,7 @@ Polymorphismus (mít více forem) -
 Abstract classes - 
   deklarace abstraktních metod jsou povoleny pouze v abstraktních třídách
   abstrakt class musi být děděna
+  všechno ostatní jsou custom class
 Interface (abstrktní class) -
   Může mít jen metody nebo property, nemůže mít variably/containery
   Múže se dědit díky tomu víc class
@@ -60,3 +61,35 @@ Struct -
   nemají dědičnost
   classy ale limitovaný
   pro jednoduší ukladaní dat
+  je int
+Enums - 
+  enumator list
+  používají se často se Switch
+Exception - 
+  Error
+  Try, Catch (exception e), finally
+Files - 
+  System.IO - namespace/knihovna
+  Příkaz File.neco()
+
+GENERIC:
+Generic method/class - 
+  <> definuje generic typ
+Collections - 
+  pomáha k lépe používání dat
+  lépe se pracuje s větší skupinou objektů
+    Generic collections - 
+      using Systems.Collections.Generic;
+    non-generic -
+      System.Collections
+    generic collectins jsou lepší na použití
+  List (generic collection)- 
+    List<T> Má i podpříkazy
+  Sorted list - 
+    SortedList<K, V> key/value K = string, V = list
+  BitArray - 
+    bollean
+  Stack
+  Queue
+  Dictionary
+  HashSet
